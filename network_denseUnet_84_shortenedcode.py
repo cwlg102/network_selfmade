@@ -9,6 +9,7 @@ from torch.optim import lr_scheduler
 
 class DensenetGenerator(nn.Module):
     #densenet임~
+    #num_updown_block 매개변수화 시키면 layer 자유자재로 
     """Resnet-based generator that consists of Resnet blocks between a few downsampling/upsampling operations.
 
     We adapt Torch code and idea from Justin Johnson's neural style transfer project(https://github.com/jcjohnson/fast-neural-style)
